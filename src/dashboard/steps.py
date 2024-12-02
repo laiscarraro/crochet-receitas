@@ -1,5 +1,5 @@
 import streamlit as st
-from src.classes import models
+from classes import models
 
 def config_model():
     model_class = st.selectbox(
