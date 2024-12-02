@@ -1,4 +1,8 @@
 import streamlit as st
+
+import os
+st.write(os.listdir())
+
 import src.dashboard.steps as steps
 
 st.set_page_config(
