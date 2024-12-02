@@ -1,7 +1,7 @@
 import streamlit as st
 
 import os
-st.write(os.listdir())
+st.write(os.listdir('src'))
 
 import src.dashboard.steps as steps
 
