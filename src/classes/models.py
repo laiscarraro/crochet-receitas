@@ -1,5 +1,5 @@
 from typing import Dict
-from classes.measurement import Measurement
+from src.classes.measurement import Measurement
 import math
 
 class Model:

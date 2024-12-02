@@ -1,5 +1,5 @@
 import streamlit as st
-import steps
+import src.dashboard.steps as steps
 
 st.set_page_config(
     page_title='Receitas',
